@@ -18,3 +18,12 @@ Open new terminal to refresh alias settings
 `es6node`
 
 Start Coding
+
+# Result
+You should now have a node_modules directory with `babel-core` and `babel-preset-es2015` already installed.
+A `.babelrc` file has been generated to map these presets.
+An `index.js` file has been generated as the entry point to perform the transpiling.
+A 'run.js` file has been generated as the first modulization file with a hello world function. 
+
+Test the success by typing:
+`node index.js`
